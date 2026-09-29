@@ -31,7 +31,6 @@ window.PORTFOLIO = {
   resume: "resume.pdf",                 // upload your resume with this exact name, or "" to hide
   links: [
     { label: "LinkedIn", url: "https://www.linkedin.com/in/julian-chancellor-278a843a9/" },
-    { label: "GitHub",   url: "https://github.com/arandomperrson" },
   ],
 
   /* ---------- EXPERIENCE ----------
@@ -102,16 +101,16 @@ window.PORTFOLIO = {
      Group them however makes sense for your major.               */
   skills: [
     { group: "CAD & Fabrication", items: ["SolidWorks", "3D Printing", "Electrical Soldering (E1 certified, TIW)"] },
-    { group: "Engineering Coursework", items: ["Calculus III", "Engineering Physics I + Lab", "Chemistry I + Lab"] },
+    { group: "Engineering Coursework", items: ["Calculus III", "Engineering Physics I + Lab", "Chemistry I + Lab", "AP Physics C", "AP Statistics"] },
     { group: "Core Competencies", items: ["Problem-Solving & Analytical Thinking", "Technical Teamwork", "Time Management"] },
   ],
 
   /* ---------- AWARDS (optional, use [] for none) ---------- */
   awards: [
-    "Truckload Carriers Association Scholarship",
     "Academic Blanket Award — Geometry, Algebra II, Physics/Pre-Calculus, AP Physics C",
     "AP World History Exam: 5 | AP Statistics Exam: 5",
     "UIL State Solo & Ensemble Qualifier (2023–2026)",
+    "UIL Region IV All-Region Band Qualifier (2021, 2023–2025)",
     "FBLA State & Nationals Qualifier, UX Design (2025)",
   ],
 };
