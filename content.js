@@ -31,6 +31,7 @@ window.PORTFOLIO = {
   resume: "resume.pdf",                 // upload your resume with this exact name, or "" to hide
   links: [
     { label: "LinkedIn", url: "https://www.linkedin.com/in/julian-chancellor-278a843a9/" },
+    { label: "GitHub",   url: "https://github.com/arandomperrson" },
   ],
 
   /* ---------- EXPERIENCE ----------
@@ -107,6 +108,7 @@ window.PORTFOLIO = {
 
   /* ---------- AWARDS (optional, use [] for none) ---------- */
   awards: [
+    "Truckload Carriers Association Scholarship",
     "Academic Blanket Award — Geometry, Algebra II, Physics/Pre-Calculus, AP Physics C",
     "AP World History Exam: 5 | AP Statistics Exam: 5",
     "UIL State Solo & Ensemble Qualifier (2023–2026)",
