@@ -11,27 +11,27 @@ window.PORTFOLIO = {
      Pick your look: "terminal", "clean", or "story".
      showThemePicker: true shows the style switcher in the corner.
      Set it to false once you've picked your favorite.            */
-  theme: "clean",
+  theme: "terminal",
   showThemePicker: true,
 
   /* ---------- ABOUT YOU ---------- */
-  name: "Anthony Cardozo",
-  initials: "AC",                       // shown if you don't add a photo
+  name: "Julian Chancellor",
+  initials: "JC",                       // shown if you don't add a photo
   photo: "",                            // optional: "images/headshot.jpg"
-  headline: "Software engineer building cloud systems and developer tools.",
-  tagline: "I like building things people actually use.",   // used by the Story style
-  school: "CS at UT Austin, class of 2029",
+  headline: "Mechanical Engineering Student at UT Austin",
+  tagline: "I like figuring out how things are put together.",   // used by the Story style
+  school: "B.S. Mechanical Engineering, UT Austin, Class of 2030",
   location: "Austin, TX",
   status: "Looking for Summer 2027 internships",             // leave "" to hide
 
-  about: "I've worked on AI evaluation at AWS, a browser-based compiler at a startup, and the platform my SHPE chapter runs on. Before all that, I built an online store for my family's candy business.",
+  about: "Freshman Mechanical Engineering student at UT Austin. I'm building hands-on skills through SolidWorks, 3D printing and E1 soldering certifications at Texas Inventionworks, and involvement with RAS Robomaster, SASE, and SHPE.",
 
   /* ---------- CONTACT ---------- */
-  email: "anthonycardozo06@gmail.com",
+  email: "julianman087@gmail.com",
   resume: "resume.pdf",                 // upload your resume with this exact name, or "" to hide
   links: [
-    { label: "LinkedIn", url: "https://linkedin.com/in/anthony-cardozo-4361b6310" },
-    { label: "GitHub",   url: "https://github.com/your-username" },
+    { label: "LinkedIn", url: "https://www.linkedin.com/in/julian-chancellor-278a843a9/" },
+    { label: "GitHub",   url: "https://github.com/arandomperrson" },
   ],
 
   /* ---------- EXPERIENCE ----------
@@ -40,36 +40,52 @@ window.PORTFOLIO = {
      business all count.                                           */
   experience: [
     {
-      role: "Software Engineering Intern",
-      org: "Amazon Web Services",
-      place: "Seattle, WA",
-      dates: "Summer 2026",
-      summary: "Built a weekly pipeline that grades an AI root-cause-analysis agent and found fixes that raised its average score 23%.",
-      tags: ["Lambda", "SQS", "Bedrock", "DynamoDB"],
-    },
-    {
-      role: "Founding Engineer",
-      org: "One Dollar Computer",
-      place: "Austin, TX",
+      role: "Member",
+      org: "RAS Robomaster",
+      place: "UT Austin",
       dates: "2026 – now",
-      summary: "Built the cloud compiler that lets you write C or Rust in the browser and flash a RISC-V board in under 6 seconds.",
-      tags: ["C", "Rust", "GCP", "WebHID"],
+      summary: "Collaborate with a student engineering team designing and building competitive combat/RoboMaster robots, gaining exposure to mechanical design and build processes.",
+      tags: ["SolidWorks", "Mechanical Design", "Robotics"],
     },
     {
-      role: "Website Lead",
-      org: "SHPE UT Austin",
-      place: "Austin, TX",
+      role: "Member",
+      org: "SASE (Society of Asian Scientists and Engineers)",
+      place: "UT Austin",
       dates: "2026 – now",
-      summary: "Lead the platform 400+ members use to earn points for convention and stipends. 1,000+ check-ins in the first 3 weeks.",
-      tags: ["React", "Supabase"],
+      summary: "Participate in a professional engineering student organization focused on technical development, mentorship, and career readiness.",
+      tags: ["Professional Development"],
     },
     {
-      role: "Founder",
-      org: "Cardozo Enchilados",
-      place: "Dallas, TX",
-      dates: "2023 – now",
-      summary: "Run a Mexican candy business with my family: 1,500+ units sold, plus a Stripe storefront that replaced taking orders over DMs.",
-      tags: ["React", "Express", "MongoDB", "Stripe"],
+      role: "Member",
+      org: "SHPE (Society of Hispanic Professional Engineers)",
+      place: "UT Austin",
+      dates: "2026 – now",
+      summary: "Engage with a professional engineering student organization supporting academic and professional development for future engineers.",
+      tags: ["Professional Development"],
+    },
+    {
+      role: "Class President",
+      org: "Mount Pleasant High School",
+      place: "Mount Pleasant, TX",
+      dates: "2025 – 2026",
+      summary: "Elected by classmates to represent the senior class and coordinate class initiatives and events.",
+      tags: ["Leadership", "Public Speaking"],
+    },
+    {
+      role: "Treasurer (Officer)",
+      org: "National Honor Society",
+      place: "Mount Pleasant, TX",
+      dates: "2025 – 2026",
+      summary: "Managed chapter finances and helped organize service projects and events for members.",
+      tags: ["Financial Management", "Event Planning"],
+    },
+    {
+      role: "Section Leader",
+      org: "Saxophone, Band Program",
+      place: "Mount Pleasant, TX",
+      dates: "2023 – 2026",
+      summary: "Led and mentored a section of student musicians and ran sectional rehearsals in preparation for UIL competitions.",
+      tags: ["Leadership", "Mentorship"],
     },
   ],
 
@@ -78,40 +94,24 @@ window.PORTFOLIO = {
      "result" is one line about what happened or what you learned.
      "url" can link to a demo, GitHub repo, or photos ("" for none). */
   projects: [
-    {
-      name: "HONK",
-      when: "Hackathon · Apr 2026",
-      stack: ["Next.js", "Gemini", "Firebase"],
-      summary: "A focus app that checks your screen every minute. Drift off task and it honks at you and takes your bread.",
-      result: "Distracted time dropped from 33% to 8%",
-      url: "",
-    },
-    {
-      name: "Landing Pad",
-      when: "Hackathon · Jul 2026",
-      stack: ["React", "TypeScript", "AWS CDK"],
-      summary: "A no-login city guide where outgoing interns pass down their favorite food, housing, and activity spots to the next class.",
-      result: "54 places on a color-coded map",
-      url: "",
-    },
-    {
-      name: "SHPE Chapter Platform",
-      when: "SHPE · 2026",
-      stack: ["React", "Supabase"],
-      summary: "Event check-ins, a points leaderboard, and an officer dashboard for our chapter.",
-      result: "1,000+ check-ins in 3 weeks",
-      url: "",
-    },
+    // No projects yet — add your first CAD build, robotics project,
+    // or class project here once you have one to show off.
   ],
 
   /* ---------- SKILLS ----------
      Group them however makes sense for your major.               */
   skills: [
-    { group: "Languages",  items: ["Java", "C", "Python", "JavaScript", "TypeScript", "x86 Assembly"] },
-    { group: "Frameworks", items: ["React", "Next.js", "Node", "Express", "Supabase", "Firebase"] },
-    { group: "Cloud",      items: ["AWS Lambda", "S3", "SQS", "DynamoDB", "Bedrock", "CDK"] },
+    { group: "CAD & Fabrication", items: ["SolidWorks", "3D Printing", "Electrical Soldering (E1 certified, TIW)"] },
+    { group: "Engineering Coursework", items: ["Calculus III", "Engineering Physics I + Lab", "Chemistry I + Lab"] },
+    { group: "Core Competencies", items: ["Problem-Solving & Analytical Thinking", "Technical Teamwork", "Time Management"] },
   ],
 
   /* ---------- AWARDS (optional, use [] for none) ---------- */
-  awards: ["Amazon Future Engineer Scholar", "Dijkstra Scholar", "HITEC Scholar", "HSF Scholar"],
+  awards: [
+    "Truckload Carriers Association Scholarship",
+    "Academic Blanket Award — Geometry, Algebra II, Physics/Pre-Calculus, AP Physics C",
+    "AP World History Exam: 5 | AP Statistics Exam: 5",
+    "UIL State Solo & Ensemble Qualifier (2023–2026)",
+    "FBLA State & Nationals Qualifier, UX Design (2025)",
+  ],
 };
